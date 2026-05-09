@@ -1,5 +1,33 @@
+# Node.js
 node_modules/
-dist/
+npm-debug.log
+yarn.lock
+
+# Environment variables
 .env
 .env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build files
+dist/
+build/
+.next/
+out/
+
+# Testing
+/coverage
+
+# Misc
+*.log
+*.pem
+
+# App data
 backend/data/
